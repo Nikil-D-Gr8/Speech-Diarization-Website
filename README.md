@@ -20,7 +20,7 @@ Before using the app, you need to obtain an API key from AssemblyAI. Follow thes
 2. Once logged in, navigate to the API section of your dashboard.
 3. Copy your API key.
 4. Create a file named `api_credentials.py` in the project directory.
-5. Inside `api_credentials.py`, define a variable named `api_KEY_aai` and assign your API key to it:
+5. Inside `api_credentials.py`, define a variable named `key` and assign your API key to it:
 
 ```python
 # api_credentials.py
@@ -28,7 +28,7 @@ Before using the app, you need to obtain an API key from AssemblyAI. Follow thes
 api_KEY_aai = "YOUR_API_KEY"
 ```
 
-Replace `"YOUR_API_KEY"` with your actual API key.
+For security reasons i put mine inside .gitignore don't forget to do the same if u are forking this repo
 
 ## Usage
 
